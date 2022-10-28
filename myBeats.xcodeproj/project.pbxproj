@@ -11,6 +11,11 @@
 		0A819C0F290C2DC600F03628 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 0A819C0E290C2DC600F03628 /* Lottie */; };
 		0A819C12290C2E9200F03628 /* home.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A819C11290C2E9200F03628 /* home.json */; };
 		0A819C15290C2EBB00F03628 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A819C14290C2EBB00F03628 /* LottieView.swift */; };
+		0A8BC48D290C35E10076E35C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0A8BC48C290C35E10076E35C /* FirebaseFirestore */; };
+		0A8BC48F290C35E10076E35C /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0A8BC48E290C35E10076E35C /* FirebaseFirestoreSwift */; };
+		0A8BC491290C35E10076E35C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0A8BC490290C35E10076E35C /* FirebaseStorage */; };
+		0A8BC494290C3A0C0076E35C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BC493290C3A0C0076E35C /* RegisterView.swift */; };
+		0A8BC496290C3A100076E35C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BC495290C3A100076E35C /* LoginView.swift */; };
 		0AE4EEDC29099E1F00C82C8F /* myBeatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE4EEDB29099E1F00C82C8F /* myBeatsApp.swift */; };
 		0AE4EEDE29099E1F00C82C8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE4EEDD29099E1F00C82C8F /* ContentView.swift */; };
 		0AE4EEE029099E1F00C82C8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE4EEDF29099E1F00C82C8F /* Assets.xcassets */; };
@@ -21,6 +26,8 @@
 		0A819C02290C26E500F03628 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0A819C11290C2E9200F03628 /* home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home.json; sourceTree = "<group>"; };
 		0A819C14290C2EBB00F03628 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		0A8BC493290C3A0C0076E35C /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		0A8BC495290C3A100076E35C /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		0AE4EED829099E1F00C82C8F /* myBeats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myBeats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE4EEDB29099E1F00C82C8F /* myBeatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myBeatsApp.swift; sourceTree = "<group>"; };
 		0AE4EEDD29099E1F00C82C8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +41,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A819C0F290C2DC600F03628 /* Lottie in Frameworks */,
+				0A8BC491290C35E10076E35C /* FirebaseStorage in Frameworks */,
+				0A8BC48D290C35E10076E35C /* FirebaseFirestore in Frameworks */,
+				0A8BC48F290C35E10076E35C /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +64,15 @@
 				0A819C14290C2EBB00F03628 /* LottieView.swift */,
 			);
 			path = utils;
+			sourceTree = "<group>";
+		};
+		0A8BC492290C3A050076E35C /* views */ = {
+			isa = PBXGroup;
+			children = (
+				0A8BC495290C3A100076E35C /* LoginView.swift */,
+				0A8BC493290C3A0C0076E35C /* RegisterView.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 		0AE4EECF29099E1F00C82C8F = {
@@ -79,6 +98,7 @@
 				0A819C10290C2E8D00F03628 /* animations */,
 				0AE4EEDB29099E1F00C82C8F /* myBeatsApp.swift */,
 				0AE4EEDD29099E1F00C82C8F /* ContentView.swift */,
+				0A8BC492290C3A050076E35C /* views */,
 				0A819C02290C26E500F03628 /* GoogleService-Info.plist */,
 				0AE4EEDF29099E1F00C82C8F /* Assets.xcassets */,
 				0AE4EEE129099E1F00C82C8F /* Preview Content */,
@@ -112,6 +132,9 @@
 			name = myBeats;
 			packageProductDependencies = (
 				0A819C0E290C2DC600F03628 /* Lottie */,
+				0A8BC48C290C35E10076E35C /* FirebaseFirestore */,
+				0A8BC48E290C35E10076E35C /* FirebaseFirestoreSwift */,
+				0A8BC490290C35E10076E35C /* FirebaseStorage */,
 			);
 			productName = myBeats;
 			productReference = 0AE4EED829099E1F00C82C8F /* myBeats.app */;
@@ -143,6 +166,7 @@
 			mainGroup = 0AE4EECF29099E1F00C82C8F;
 			packageReferences = (
 				0A819C0D290C2DC600F03628 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				0A8BC48B290C35E10076E35C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 0AE4EED929099E1F00C82C8F /* Products */;
 			projectDirPath = "";
@@ -173,7 +197,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AE4EEDE29099E1F00C82C8F /* ContentView.swift in Sources */,
+				0A8BC494290C3A0C0076E35C /* RegisterView.swift in Sources */,
 				0AE4EEDC29099E1F00C82C8F /* myBeatsApp.swift in Sources */,
+				0A8BC496290C3A100076E35C /* LoginView.swift in Sources */,
 				0A819C15290C2EBB00F03628 /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +337,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -340,6 +367,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -385,6 +413,14 @@
 				minimumVersion = 3.0.0;
 			};
 		};
+		0A8BC48B290C35E10076E35C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -392,6 +428,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 0A819C0D290C2DC600F03628 /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		0A8BC48C290C35E10076E35C /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A8BC48B290C35E10076E35C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		0A8BC48E290C35E10076E35C /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A8BC48B290C35E10076E35C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		0A8BC490290C35E10076E35C /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A8BC48B290C35E10076E35C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

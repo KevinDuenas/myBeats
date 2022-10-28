@@ -10,12 +10,7 @@ import Lottie
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            LottieView(name: "home", loopMode: .loop)
-                        .frame(width: 250, height: 250)
-            Text("Hello, world!")
-        }
-        .padding()
+        LoginView()
     }
 }
 
