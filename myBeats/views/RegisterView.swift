@@ -89,6 +89,7 @@ struct RegisterView: View {
                 }
             }
             .navigationBarHidden(true)
+            .navigationBarBackButtonHidden(true)
         }
     }
     func authenticateUser(username: String, password: String){

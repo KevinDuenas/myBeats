@@ -16,9 +16,12 @@
 		0A8BC491290C35E10076E35C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0A8BC490290C35E10076E35C /* FirebaseStorage */; };
 		0A8BC494290C3A0C0076E35C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BC493290C3A0C0076E35C /* RegisterView.swift */; };
 		0A8BC496290C3A100076E35C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BC495290C3A100076E35C /* LoginView.swift */; };
+		0A8BC499290C423F0076E35C /* CrookedText in Frameworks */ = {isa = PBXBuildFile; productRef = 0A8BC498290C423F0076E35C /* CrookedText */; };
+		0A8BC49B290C42470076E35C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BC49A290C42470076E35C /* MainView.swift */; };
+		0A8BC49F290C429B0076E35C /* PetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BC49E290C429B0076E35C /* PetDetailView.swift */; };
+		0A8BC4A1290C451B0076E35C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A8BC4A0290C451B0076E35C /* Assets.xcassets */; };
 		0AE4EEDC29099E1F00C82C8F /* myBeatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE4EEDB29099E1F00C82C8F /* myBeatsApp.swift */; };
 		0AE4EEDE29099E1F00C82C8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE4EEDD29099E1F00C82C8F /* ContentView.swift */; };
-		0AE4EEE029099E1F00C82C8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE4EEDF29099E1F00C82C8F /* Assets.xcassets */; };
 		0AE4EEE329099E1F00C82C8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE4EEE229099E1F00C82C8F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -28,10 +31,12 @@
 		0A819C14290C2EBB00F03628 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		0A8BC493290C3A0C0076E35C /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		0A8BC495290C3A100076E35C /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0A8BC49A290C42470076E35C /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		0A8BC49E290C429B0076E35C /* PetDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetDetailView.swift; sourceTree = "<group>"; };
+		0A8BC4A0290C451B0076E35C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
 		0AE4EED829099E1F00C82C8F /* myBeats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myBeats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE4EEDB29099E1F00C82C8F /* myBeatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myBeatsApp.swift; sourceTree = "<group>"; };
 		0AE4EEDD29099E1F00C82C8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0AE4EEDF29099E1F00C82C8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AE4EEE229099E1F00C82C8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,6 +49,7 @@
 				0A8BC491290C35E10076E35C /* FirebaseStorage in Frameworks */,
 				0A8BC48D290C35E10076E35C /* FirebaseFirestore in Frameworks */,
 				0A8BC48F290C35E10076E35C /* FirebaseFirestoreSwift in Frameworks */,
+				0A8BC499290C423F0076E35C /* CrookedText in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,7 +75,9 @@
 		0A8BC492290C3A050076E35C /* views */ = {
 			isa = PBXGroup;
 			children = (
+				0A8BC49A290C42470076E35C /* MainView.swift */,
 				0A8BC495290C3A100076E35C /* LoginView.swift */,
+				0A8BC49E290C429B0076E35C /* PetDetailView.swift */,
 				0A8BC493290C3A0C0076E35C /* RegisterView.swift */,
 			);
 			path = views;
@@ -100,7 +108,7 @@
 				0AE4EEDD29099E1F00C82C8F /* ContentView.swift */,
 				0A8BC492290C3A050076E35C /* views */,
 				0A819C02290C26E500F03628 /* GoogleService-Info.plist */,
-				0AE4EEDF29099E1F00C82C8F /* Assets.xcassets */,
+				0A8BC4A0290C451B0076E35C /* Assets.xcassets */,
 				0AE4EEE129099E1F00C82C8F /* Preview Content */,
 			);
 			path = myBeats;
@@ -135,6 +143,7 @@
 				0A8BC48C290C35E10076E35C /* FirebaseFirestore */,
 				0A8BC48E290C35E10076E35C /* FirebaseFirestoreSwift */,
 				0A8BC490290C35E10076E35C /* FirebaseStorage */,
+				0A8BC498290C423F0076E35C /* CrookedText */,
 			);
 			productName = myBeats;
 			productReference = 0AE4EED829099E1F00C82C8F /* myBeats.app */;
@@ -167,6 +176,7 @@
 			packageReferences = (
 				0A819C0D290C2DC600F03628 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 				0A8BC48B290C35E10076E35C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				0A8BC497290C423F0076E35C /* XCRemoteSwiftPackageReference "CrookedText" */,
 			);
 			productRefGroup = 0AE4EED929099E1F00C82C8F /* Products */;
 			projectDirPath = "";
@@ -185,7 +195,7 @@
 				0AE4EEE329099E1F00C82C8F /* Preview Assets.xcassets in Resources */,
 				0A819C03290C26E500F03628 /* GoogleService-Info.plist in Resources */,
 				0A819C12290C2E9200F03628 /* home.json in Resources */,
-				0AE4EEE029099E1F00C82C8F /* Assets.xcassets in Resources */,
+				0A8BC4A1290C451B0076E35C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AE4EEDE29099E1F00C82C8F /* ContentView.swift in Sources */,
+				0A8BC49B290C42470076E35C /* MainView.swift in Sources */,
 				0A8BC494290C3A0C0076E35C /* RegisterView.swift in Sources */,
+				0A8BC49F290C429B0076E35C /* PetDetailView.swift in Sources */,
 				0AE4EEDC29099E1F00C82C8F /* myBeatsApp.swift in Sources */,
 				0A8BC496290C3A100076E35C /* LoginView.swift in Sources */,
 				0A819C15290C2EBB00F03628 /* LottieView.swift in Sources */,
@@ -332,6 +344,7 @@
 				DEVELOPMENT_TEAM = G9743QWQ9G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "My pet";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -362,6 +375,7 @@
 				DEVELOPMENT_TEAM = G9743QWQ9G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "My pet";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -421,6 +435,14 @@
 				minimumVersion = 9.0.0;
 			};
 		};
+		0A8BC497290C423F0076E35C /* XCRemoteSwiftPackageReference "CrookedText" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/duemunk/CrookedText";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -443,6 +465,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 0A8BC48B290C35E10076E35C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		0A8BC498290C423F0076E35C /* CrookedText */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A8BC497290C423F0076E35C /* XCRemoteSwiftPackageReference "CrookedText" */;
+			productName = CrookedText;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

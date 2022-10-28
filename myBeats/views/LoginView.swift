@@ -59,25 +59,22 @@ struct LoginView: View {
                     .cornerRadius(10)
                     .padding()
                     
-                    NavigationLink(destination: Text("You are logged in @\(email)"), isActive: $showingLoginScreen){
-                        EmptyView()
-                    }
-                    
+                    NavigationLink(destination: MainView(), isActive: $showingLoginScreen){
+                        
+                    }.navigationBarHidden(true)
                     NavigationLink {
                         RegisterView()
                     } label: {
                         Text("Registrarse")
                             .padding()
-                    }
-
-                        
-                        
-                }
+                    }                }
             }
             .navigationBarHidden(true)
         }
     }
     func authenticateUser(username: String, password: String){
+        
+        showingLoginScreen = true
         if username.lowercased() == "alicia2022" {
             wrongUsername = 0
             if password.lowercased() == "123"{
