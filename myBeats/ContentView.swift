@@ -6,13 +6,13 @@
 //
 
 import SwiftUI
+import Lottie
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
+            LottieView(name: "home", loopMode: .loop)
+                        .frame(width: 250, height: 250)
             Text("Hello, world!")
         }
         .padding()
